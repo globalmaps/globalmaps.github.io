@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Land Cover (GLCNMO) - Global version - Global Map</title>
+<link href="./globalmaps.css" rel="stylesheet" media="all" >
+</head>
+<body>
+<div class="gWrap">
+
+	<h1>Land Cover (GLCNMO) - Global version</h1>
+	
+	<div class="box1">
+		<p>The Global Land Cover by National Mapping Organizations (GLCNMO) is geospatial information in raster format which classifies the status of land cover of the whole globe into 20 categories. The classification is based on LCCS developed by FAO. Therefore, it is possible to compare and integrate GLCNMO and other land cover data products based on LCCS. </p>
+		<div style="width:350px; float:left;">
+			<img src="lc_global.png" alt="GLCNMO" style="margin: 10px; width:300px; height: 150px;">
+		</div>
+		<div  style="width:350px; float:left;">
+
+			<ul>
+				<li><a href="#summary">Summary</a></li>
+				<li><a href="#reference">Reference</a></li>
+				<li><a href="#code" >Index Code</a></li>
+				<li><a href="#use" >Use of data</a></li>
+				<li><a href="#cooperated" >Countries which cooperated in providing training data and validation</a></li>
+			</ul>
+		</div>
+		<div style="clear:both"></div>		
+		
+		<h2 id="summary">Summary</h2>
+		<p>Land Cover (GLCNMO) Global version data were developed by the secretariat of ISCGM in collaboration with Geospatial Information Authority of Japan (GSI), Chiba University, and NGIAs of respective countries and regions. The data were prepared by using MODIS data with remote sensing technology.</p>
+		<p>The data cover the whole globe in grids of 500m (15 seconds) intervals (for Version 2 and Version 3).</p>
+		<p>To date, data of three periods, i.e., Version 1, Version 2 and Version 3, were developed and provided.</p>
+		<table border="1" cellpadding="0" cellspacing="0">
+			<tbody>
+				<tr>
+					<td width="200"></td>
+					<td width="200" style="text-align: center;">Version 1</td>
+					<td width="200" style="text-align: center;">Version 2</td>
+					<td width="200" style="text-align: center;">Version 3</td>
+				</tr>
+				<tr>
+					<td>Data source</td>
+					<td style="text-align: center;">MODIS data 2003<br>(Terra)</td>
+					<td style="text-align: center;">MODIS data 2008<br>(Terra &amp; Aqua)</td>
+					<td style="text-align: center;">MODIS data 2013<br>(Terra &amp; Aqua)</td>
+				</tr>
+				<tr>
+					<td>Coordinate system</td>
+					<td style="text-align: center;">WGS84</td>
+					<td style="text-align: center;">WGS84</td>
+					<td style="text-align: center;">WGS84</td>
+				</tr>
+				<tr>
+					<td>Resolution</td>
+					<td style="text-align: center;">30 arcseconds</td>
+					<td style="text-align: center;">15 arcseconds</td>
+					<td style="text-align: center;">15 arcseconds</td>
+				</tr>
+				<tr>
+					<td>Data type</td>
+					<td style="text-align: center;">Byte (8bits)</td>
+					<td style="text-align: center;">Byte (8bits)</td>
+					<td style="text-align: center;">Byte (8bits)</td>
+				</tr>
+				<tr>
+					<td>Bit order</td>
+					<td style="text-align: center;">Little end ordering<br>(Intel x86)</td>
+					<td style="text-align: center;">Little end ordering<br>(Intel x86)</td>
+					<td style="text-align: center;">Little end ordering<br>(Intel x86)</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<h2 id="reference" class="section_title01_1">Reference</h2>
+                <p>Tateishi, R., Bayaer, U., Al-Bilbisi, H., Aboel Ghar, M., Tsend-Ayush, J., Kobayashi, T., Kasimuf, A., Thanh Hoan, N., Shalaby, A., Alsaaideh, B., Enkhzaya, T., Gegentana, Sato, H. P. (2011). Production of global land cover data - GLCNMO, International Journal of Digital Earth, 4(1), 22-49, <a href="http://dx.doi.org/10.1080/17538941003777521">http://dx.doi.org/10.1080/17538941003777521</a></p>
+				<p>Tateishi, R., Thanh Hoan, N., Kobayashi, T., Alsaaideh, B., Tana, G., Xuan Phong, D. (2014). Production of Global Land Cover Data - GLCNMO2008,  Journal of Geography and Geology, Vol. 6, No. 3, 99-122, 2014, <a href="http://dx.doi.org/10.5539/jgg.v6n3p99">http://dx.doi.org/10.5539/jgg.v6n3p99</a></p>
+		
+		<h2 id="code">Index Code</h2>
+		<p>The following table shows 20 classifications.</p>
+		<table class="table table-condensed">
+			<tr><th>Code</th><th>Class Name</th><th width="10">Code</th><th>Class Name</th></tr>
+			<tr><td style="text-align: center;">1</td><td>Broadleaf Evergreen Forest</td><td style="text-align: center;">11</td><td>Cropland</td></tr>
+			<tr><td style="text-align: center;">2</td><td>Broadleaf Deciduous Forest</td><td style="text-align: center;">12</td><td>Paddy field</td></tr>
+			<tr><td style="text-align: center;">3</td><td>Needleleaf Evergreen Forest</td><td style="text-align: center;">13</td><td>Cropland / Other Vegetation Mosaic</td></tr>
+			<tr><td style="text-align: center;">4</td><td>Needleleaf Deciduous Forest</td><td style="text-align: center;">14</td><td>Mangrove</td></tr>
+			<tr><td style="text-align: center;">5</td><td>Mixed Forest</td><td style="text-align: center;">15</td><td>Wetland</td></tr>
+			<tr><td style="text-align: center;">6</td><td>Tree Open</td><td style="text-align: center;">16</td><td>Bare area,consolidated(gravel,rock)</td></tr>
+			<tr><td style="text-align: center;">7</td><td>Shrub</td><td style="text-align: center;">17</td><td>Bare area,unconsolidated (sand)</td></tr>
+			<tr><td style="text-align: center;">8</td><td>Herbaceous</td><td style="text-align: center;">18</td><td>Urban</td></tr>
+			<tr><td style="text-align: center;">9</td><td>Herbaceous with Sparse Tree/Shrub</td><td style="text-align: center;">19</td><td>Snow / Ice</td></tr>
+			<tr><td style="text-align: center;">10</td><td>Sparse vegetation</td><td style="text-align: center;">20</td><td>Water bodies</td></tr>
+		</table>
+	
+		<h2 id="use" class="section_title01_1">Use of data</h2>
+		<p>Acknowledgement of written sources is necessary. Please show a text,
+		&quat;Geospatial Information Authority of Japan, Chiba University and
+		collaborating organizations.&quat;, on your products.</p>
+		
+		<h2 id="cooperated" class="section_title01_1">Countries which cooperated in providing training data and validation</h2>
+		<h4>Version 1 (40 Countries and Regions)</h4>
+		<p>Afghanistan, Argentina, Australia, Austria, Bangladesh, Belgium, Botswana, Brazil, Chile, China, Colombia, Estonia, Hungary, Indonesia, Iran, Italy, Japan, Jordan, Kenya, Republic of Korea, Lao People's Dem. Rep., Latvia, Malaysia, Mexico, Niger, Nigeria, Occupied Palestinian Territory, Papua New Guinea, Romania, Sri Lanka, St Helena Island, Switzerland, Syrian Arab Republic, Thailand, The Philippines, Uganda, Ukraine, United Kingdom, Uruguay, Zimbabwe</p>
+		<h4>Version 2 (14 Countries and Regions)</h4>
+		<p>Botswana, Chile, Cote d'Ivoire, El Salvador, Japan, Macao, S.A.R., China, 
+		Macedonia, Mexico, Oman, Pakistan, Serbia, Sri Lanka, Thailand, United States</p>
+		<h4>Version 3 (22 Countries and Regions)</h4>
+		<p>Algeria, Australia, Botswana, Brazil, Burundi, Chile, Colombia, Germany, Hong Kong SAR China, Japan, Latvia, Macao SAR China, Macedonia, Madagascar, Malaysia, Mexico, New Zealand, Romania, Senegal, Sweden, Thailand, Viet Nam</p>
+	</div>
+
+</div>
+</body>
+</html>

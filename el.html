@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Elevation - Global version - Global Map</title>
+<link href="./globalmaps.css" rel="stylesheet" media="all" >
+</head>
+<body>
+<div class="gWrap">
+
+	<h1>Elevation - Global version</h1>
+	
+	<div class="box1">
+		<div style="width:350px; float:left;">
+			<img src="el_global.png" alt="Elevation" style="margin: 10px;">
+		</div>
+		<div  style="width:350px; float:left;">
+			<p>Global version elevation is elevation data at 1m interval covering the whole world.</p>
+			<ul>
+				<li><a href="#summary" >Summary</a></li>
+				<li><a href="#code" >Index Code</a></li>
+				<li><a href="#use" >Use of data</a></li>
+			</ul>
+		</div>
+		<div style="clear:both"></div>
+		<h2 id="summary">Summary</h2>
+		<p>To date, data of two periods, i.e., Version 1 and Version 2, were developed and provided.</p>
+		<table>
+			<tbody>
+				<tr>
+					<th width="200"></th>
+					<th width="200">Version 1</th>
+					<th width="200">Version 2</th>
+				</tr>
+				<tr>
+					<td>Data source</td>
+					<td>GTOPO30</td>
+					<td>GMTED2010<br>GLCNMO (Sea & Water)</td>
+				</tr>
+				<tr>
+					<td>Coordinate system</td>
+					<td>WGS84</td>
+					<td>WGS84</td>
+				</tr>
+				<tr>
+					<td>Resolution</td>
+					<td>30 arcseconds</td>
+					<td>15 arcseconds</td>
+				</tr>
+				<tr>
+					<td>Data type</td>
+					<td>Byte (16bits)</td>
+					<td>Byte (16bits)</td>
+				</tr>
+			</tbody>
+		</table>
+		
+		<h2 id="code" class="section_title01_1">Index Code</h4>
+		<p>Elevation includes values at an interval of 1m</p>
+		<table>
+			<tr><th width="200">Code</th><th width="200">Class Name</th></tr>
+			<tr><td>number</td><td>Height (m)</td></tr>
+			<tr><td>-9999</td><td>Water bodies</td></tr>
+			<tr><td>9998</td><td>No data</td></tr>
+		</table>
+		
+		<h2 id="use" class="section_title01_1">Use of data</h4>
+		<p>Use</p>
+		<p>Acknowledgement of written sources is necessary. Please show a text, "Geospatial Information Authority of Japan.", on your products.</p>
+	</div>
+
+</div>
+</body>
+</html>
